@@ -86,8 +86,8 @@ namespace HomeWork4
 
         private void Z2R_Click(object sender, RoutedEventArgs e)
         {
-            var n = Chess(byte.Parse(Z2X.Text), byte.Parse(Z2Y.Text), byte.Parse(Z2Z.Text), byte.Parse(Z2W.Text)) ? "чёрная" : "белая";
-            Z2R.Content = $"Клетка { n }";
+            var n = Chess(byte.Parse(Z2X.Text), byte.Parse(Z2Y.Text), byte.Parse(Z2Z.Text), byte.Parse(Z2W.Text)) ? "одинаковые" : "разные";
+            Z2R.Content = $"Клетки { n }";
         }
 
         private void Z3R_Click(object sender, RoutedEventArgs e)
